@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  width :100%;
+  background-color: #1588ca;
+}
+
+.header {
+  min-height: 60vh;
+  background-color: #111;
+  color: white;
+  clip-path: ellipse(100vw 60vh at 50% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.details {
+  text-align: center;
+}
+
+.profile-pic {
+  height: 8rem;
+  width: 8rem;
+  object-fit: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: white;
+}
+
+.coin {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.coin400 {
+  display: flex;
+}
+
+.mobile_no {
+  font-family:Courier New;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3dd5f3;
+}
+.mob {
+  color: #3dd5f3;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats .col-4 {
+  width: 10rem;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+ color: #3dd5f3;
+}
+
+
+
+.hfour00{
+  margin-left: 50px;
+  margin-right: 5px;
+}
+
+.gcb {
+  margin-top: 16px;
+}
+
+
+
+.usage_info {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+
+
+
+.dot{
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bigdot {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.spending {
+  background-color: #111;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 5px;
+}
+
+.spending td {
+  font-size: 1.0rem;
+  padding: 6px;
+  font-family: 'RocknRoll One', sans-serif;
+  color: white;
+}
+
+.spending .rate {
+  color: #3dd5f3;
+}
+
+.deposit_waste {
+  background-color: #111 ;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.deposit_waste td {
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+}
+.deposit_waste th {
+  font-size: 1.1rem;
+  padding-top: 10px;
+  font-family: 'RocknRoll One', sans-serif;
+  color: #3dd5f3;
+  padding-right: 10px;
+}
+.deposit_waste table{
+  text-align: center;
+}
+
+
+
+.coin_rate {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.part1, .part2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.part1 h2, h4{
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-family: 'RocknRoll One', sans-serif;
+}
+.part2 h2, h4{
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.plastic, .paper, .glass, .cloth, .bnc, .e-waste {
+  background-color:white ;
+  width: 130px;
+  height : 200px;
+  color: black;
+  padding: 10px 10px 40px 10px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+.plastic:hover, .paper:hover, .glass:hover, .cloth:hover, .bnc:hover, .e-waste:hover {
+  background-color:  #111;;
+  color : white;
+}
+
+
+.coin_rate img {
+  width: 125px;
+  height: 125px;
+  border-radius: 25px;
+  padding-left: 3px;
+}
+
+.plastic h2, .paper h2, .glass h2, .cloth h2, .bnc h2, .e-waste h2{
+  font-size: 20px;
+}
+
+.hr2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 2.5rem;
+}
+
+.in {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #111;
+}
