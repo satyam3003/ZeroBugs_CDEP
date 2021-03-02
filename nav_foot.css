@@ -1,9 +1,13 @@
 body, html {
     overflow-x: hidden;
     position: relative;
+    background-color: black;
+    z-index: -5;
 }
 
 .navbar_custom {
+    position: relative;
+    z-index: 2;
     padding: 20px 50px;
     background-color: #3dd5f3;
 }
@@ -48,43 +52,47 @@ body, html {
     }
 }
 
-footer{
+
+/*footer*/
+
+footer {
     background-color: #3dd5f3;
     color: black;
 }
 
-.footer-row{
-    padding: 50px 0;
+.footer-row {
+    padding: 50px;
 }
 
-.foother-cols{
+.foother-cols {
     padding: 10px;
 }
 
-footer h3{
+footer h3 {
     line-height: 1.5;
     font-weight: 700;
 }
 
-.foother-cols-1 h5:hover{
+.foother-cols-1 h5:hover {
     color: #414141;
 }
 
-.foother-cols a{
+.foother-cols a {
     text-decoration: none;
     color: black;
 }
 
-.foother-cols a:hover{
+.foother-cols a:hover {
     text-decoration: none;
     color: #414141;
 }
 
-.company_name_footer{
+.company_name_footer {
     font-family: 'Lobster', cursive;
 }
 
-.bottom{
+.bottom {
     text-align: center;
     margin-top: 20px;
 }
+
