@@ -1,0 +1,146 @@
+.topmost {
+    height: 100vh;
+    width: 100%;
+    background-image: url("about_us_images/back_img_about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel-body {
+    overflow: hidden;
+}
+
+.panel-body img {
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 1.5s ease-out;
+
+}
+
+.panel-body img:hover {
+    transform: scale(1.25);
+}
+
+
+.Started {
+    padding: 30px 10px 0 10px;
+}
+
+.started_text {
+    color: white;
+    margin: 30px 15px;
+}
+
+.started_text h2 {
+    color: #3dd5f3;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.started_text hr {
+    border: none;
+    padding: 4px;
+    background-color: #3dd5f3;
+    width: 50%;
+}
+
+.started_text p {
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+}
+
+.started_image {
+    margin: 50px;
+}
+
+.team {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.cards_team {
+    margin: 45px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    background-color: #3dd5f3;
+    color: white;
+    border: 0.5px solid white;
+}
+
+.cards_team:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.team_img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.cards_team h3 {
+    font-size: 1.5rem;
+}
+
+.total_users {
+    padding: 50px 20px;
+}
+
+.total_users_col {
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.total_users_col h2, .locations h2 {
+    color: #3dd5f3;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.total_users_col h2{
+    font-family: 'Courgette', cursive;
+}
+
+.total_users_col h4 {
+    font-weight: 200;
+    letter-spacing: 7px;
+}
+
+.locations {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.locations h5 {
+    margin: 40px 70px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    line-height: 3;
+}
+
+@media (max-width: 900px) {
+    .locations {
+        padding: 40px 15px;
+    }
+
+    .locations h5 {
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 660px){
+    .locations h5 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 2;
+}
+}
