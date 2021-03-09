@@ -1,0 +1,113 @@
+.bkch {
+    background-color: black;
+    color:  #3dd5f3 ;
+}
+.bg{
+  background-color: rgb(18, 60, 95);
+}
+.headpd{
+  padding: 30px;
+  text-align: center;
+  text-size-adjust: 100%;
+}
+.tablehead {
+    text-align: center;
+    color: #3dd5f3 ;
+    font-size: 40px;
+    padding: 5px;
+    
+    
+    
+    background-color: rgb(18, 60, 95);
+}
+.ranksubhd {
+  color:whitesmoke;
+  font-weight: bold;
+  font-family:sans-serif;
+}
+.rank_img{
+  
+  
+  align-content: center;
+}
+.txtcenter{
+  text-align: center;
+  font-weight: bold;
+}
+.coin_img{
+  padding-bottom: 3px;
+}
+#glbrank {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+  }
+  
+  #glbrank td, #glbrank th {
+    border-bottom: 5px solid rgb(12, 11, 11);
+    padding: 10px;
+    padding-left: 20px;
+  }
+
+  #glbrank td{
+      color: black;
+    
+  }
+  
+  #glbrank tr:nth-child(even){background-color: rgb(124, 124, 124);}
+  
+  #glbrank tr:nth-child(odd) {background-color: rgb(190, 192, 194);}
+
+  #glbrank tr:hover {background-color:lightblue}
+  
+  #glbrank th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(30, 143, 163);
+    font-weight: bold;
+    
+  }
+  .main-card-dark{
+    background-color: #181818;
+    color: #ececec;
+    transition: background-color 1s, color 1s ;
+}
+
+.main-card-dark:hover{
+    background-color: #3dd5f3;
+    color: black;
+}
+
+.panel{
+    margin: 10px 0;
+}
+.panel-body {
+  overflow: hidden;
+}
+
+.panel-body img {
+  display: block;
+  object-fit: cover;
+  overflow: hidden;
+  transition: transform 400ms ease-out;
+
+}
+
+.panel-body img:hover {
+  transform: scale(1.10);
+} 
+.main-card-dark{
+  background-color: #181818;
+  color: #ececec;
+  transition: background-color 1s, color 1s ;
+}
+
+.main-card-dark:hover{
+  background-color: #3dd5f3;
+  color: black;
+}
