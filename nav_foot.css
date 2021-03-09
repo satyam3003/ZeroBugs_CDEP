@@ -5,6 +5,14 @@ body, html {
     z-index: -5;
 }
 
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black url('loader.gif') no-repeat center;
+    z-index: 20;
+}
+
 .navbar_custom {
     position: relative;
     z-index: 2;
@@ -35,7 +43,7 @@ body, html {
     font-weight: 500;
 }
 
-.nav_hov:hover {
+.active_page , .nav_hov:hover {
     background-color: #000000;
     color: white;
 }

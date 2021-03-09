@@ -22,7 +22,12 @@
     <link href="aos.css" rel="stylesheet">
     <link rel="stylesheet" href="aboutus.css">
 </head>
-<body>
+
+<body  onload="loader()">
+<!--loader-->
+<div id="loading"></div>
+<script src="home.js"></script>
+
 <nav class="navbar navbar_custom navbar-expand-lg navbar-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="navlogo" src="images/Logo_final_WastoGem.png" alt="" width="50px"
@@ -46,7 +51,7 @@
                     <a class=" nav-link" href="#"> <span class="nav_hov">Ranking</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class=" nav-link" href="#"> <span class="nav_hov">About Us</span></a>
+                    <a class=" nav-link" href="#"> <span class="nav_hov active_page">About Us</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -139,13 +144,13 @@
             </div>
             <div class="col-12 col-md-4">
                 <div data-aos="fade-up"  class="cards_team">
-                    <img class="team_img" src="about_us_images/satyamimg.jpg" alt="" width="100%">
+                    <img class="team_img" src="about_us_images/om_misal_fin.jpg" alt="" width="100%">
                     <h3>Om Misal</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div data-aos="fade-up"  class="cards_team">
-                    <img class="team_img" src="about_us_images/satyamimg.jpg" alt="" width="100%">
+                    <img class="team_img" src="about_us_images/gaurav_fin.jpg" alt="" width="100%">
                     <h3>Gaurav Kathar</h3>
                 </div>
             </div>
@@ -158,6 +163,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="total_users">
     <div class="container">
