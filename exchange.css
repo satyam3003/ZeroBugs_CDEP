@@ -1,0 +1,39 @@
+.main_body{
+    padding: 20vh 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.main_div_1 {
+    margin: 5vh auto;
+}
+
+.main_div_1 h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #3dd5f3;
+}
+
+.main_div_1 h4, .main_div_2 h4{
+    font-weight: 300;
+    color: #c3c3c3;
+}
+
+.main_div_2{
+    padding: 5vh 0;
+}
+
+.main_div_2 h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #3dd5f3;
+}
+
+.equal{
+    color: white;
+}
+
+.btn_edits{
+    margin: 5vh auto;
+}
