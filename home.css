@@ -331,12 +331,20 @@ p{
 .card_shop:hover{
     background-color: #002a5b;
     color: white;
-
 }
 
 .shopping_image{
     width: 50%;
     margin: 15px auto;
+}
+
+.shopping_col a{
+    text-decoration:none;
+    color: #ffffff;
+}
+.shopping_col a:hover{
+    text-decoration:none;
+    color: #3dd5f3;
 }
 
 .sponsor{

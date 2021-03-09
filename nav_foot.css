@@ -48,6 +48,11 @@ body, html {
     color: white;
 }
 
+.user_nav{
+    border: 4px solid black;
+    color: black;
+}
+
 .nav-end {
     position: absolute;
     right: 100px;

@@ -1,0 +1,35 @@
+h1 {
+    color: #3dd5f3;
+    font-family: 'Abhaya Libre', serif;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.processing_main h2,.processing_main h3,.processing_main h4 {
+    color: #3dd5f3;
+}
+
+body {
+    background-color: black;
+}
+
+.processing_row{
+    margin: 60px auto;
+}
+
+.processing_main{
+    margin: 15vh auto;
+}
+
+.processing_main p {
+    color: white;
+    font-family: "Trirong", serif;
+
+}
+
+.img_processing {
+    border-radius: 15px ;
+    padding: 6px;
+    width: 90%;
+}

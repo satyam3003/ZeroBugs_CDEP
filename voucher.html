@@ -66,70 +66,68 @@
         }
 
         /* Add a gray background color and some padding to the footer */
-        footer {
-            background-color: #f2f2f2;
-            padding: 25px;
-        }
-        .panel-footer{
-          background-color: ;
-        }
+        /*footer {*/
+        /*    background-color: #f2f2f2;*/
+        /*    padding: 25px;*/
+        /*}*/
+        /*.panel-footer{*/
+        /*  background-color: ;*/
+        /*}*/
     </style>
 </head>
-<body class="body-swap body-dark">
+<body  onload="loader()" class="body-swap body-dark">
+<!--loader-->
+<div id="loading"></div>
+<script src="home.js"></script>
 
 
 
-  <nav class="navbar navbar_custom navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="navlogo" src="images/Logo_final_WastoGem.png" alt="" width="50px"
-                                                height="50px" class="d-inline-block align-top"></a>
-          <h2 class="company_name">WastoGem</h2>
+<nav class="navbar navbar_custom navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="navlogo" src="images/Logo_final_WastoGem.png" alt="" width="50px"
+                                              height="50px" class="d-inline-block align-top"></a>
+        <h2 class="company_name">WastoGem</h2>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a class=" nav-link active" aria-current="page" href="#"><span class="nav_hov"> Home</span> </a>
-                  </li>
-                  <li class="nav-item">
-                      <a class=" nav-link" href="#"> <span class="nav_hov"> Processing</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class=" nav-link" href="#"> <span class="nav_hov">Ranking</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class=" nav-link" href="#"> <span class="nav_hov">About Us</span></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                         data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="nav_hov">Spend</span>
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Shopping</a></li>
-                          <li><a class="dropdown-item" href="#">Vouchers</a></li>
-                          <li><a class="dropdown-item" href="#">Convert</a></li>
-                      </ul>
-                  </li>
-              </ul>
-              <div class="nav-end">
-                  <form class="d-flex">
-                      <button class="btn btn-outline-dark" type="submit">User&nbsp;&nbsp; <i class="fas fa-user"></i>
-                      </button>
-                  </form>
-              </div>
-          </div>
-      </div>
-  </nav>
-
-
-
-
-
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class=" nav-link" aria-current="page" href="index.html"><span class="nav_hov "> Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class=" nav-link" href="processing.html"> <span class="nav_hov"> Processing</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class=" nav-link" href="Ranking1_cdep_1.html"> <span class="nav_hov">Ranking</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class=" nav-link" href="aboutus.html"> <span class="nav_hov">About Us</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="nav_hov  active_page">Spend</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Wastogem_shop.html">Shopping</a></li>
+                        <li><a class="dropdown-item" href="voucher.html">Vouchers</a></li>
+                        <li><a class="dropdown-item" href="exchange.html">Convert</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-end">
+                <form class="d-flex">
+                        <a class="nav-link" href="Wastogem_Profile.html"> <span class="nav_hov user_nav"> User &nbsp; &nbsp; <i class="fas fa-user"></i></span></a>
+                    </form>
+            </div>
+        </div>
+    </div>
+</nav>
 
 <br><br><br>
 <div class="jumbotron">
