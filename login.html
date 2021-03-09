@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/df65e24a0c.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/Logo_final_WastoGem.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Sign-In Page | Team ZeroBug | CDEP</title>
+    <link rel="stylesheet" href="nav_foot.css">
+    <link href="aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+  <video  autoplay muted loop id="myVideo">
+    <source src="images/zvid.mp4" type="video/mp4">
+  </video>
+
+
+<div class="divOut">
+<form class="form1" action="/action_page.php" method="post">
+
+<h  class="logIn">LOGIN</h>
+<hr dat-aos="fade-left" class="aos-init aos-animate">
+    <div class="imgcontainer">
+      <img src="images/Logo_final_WastoGem.png" alt="Avatar" class="avatar">
+    </div>
+
+  <div class="container">
+
+    <input type="text" placeholder="Enter Mobile No" name="uname" required autofocus >
+    <input type="password" placeholder="Enter OTP" name="psw" required>
+    <br>
+    <label class="rememberMe">
+      <input  type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <br>
+    <button type="submit">Login</button>
+
+  </div>
+  <br><br>
+
+  <div class="container">
+    <form class="d-flex">
+      <button class="btn btn-outline-dark" type="submit" style="background-color: #3dd5f3; ">SignUp <i class="fas fa-user"></i>
+        </button>
+    </form>
+  </div>
+  </form>
+
+</div>
+<br>
+<br>
+
+
+
+<!-- Optional JavaScript; -->
+<script src="aos.js"></script>
+<script type="text/javascript">AOS.init();</script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+</html>
